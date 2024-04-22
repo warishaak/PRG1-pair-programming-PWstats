@@ -14,6 +14,20 @@ const lines = data.split(/\n/);
 for (line of lines) {
       
       elements = line.split(delimiter);
-      console.log(elements)
+
+      let lengthOfPass = elements[1].length
+      //console.log(lengthOfPass)
+
+      let accPassword = elements[1];
+      //console.log(accPassword)
+
+    console.log("The " + elements + " has " + elements[1].length + " characters ");
+
+     //let lengthOfElements = line.length;
+      //console.log(lengthOfElements);
+
+      let differentLength = 
+
+    
 }
 
